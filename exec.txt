@@ -1,4 +1,0 @@
-python bz2_jsonl.py
-python spimi.py
-python merge_blocks.py
-python main.py
