@@ -1,1 +1,12 @@
-/querying.py
+# Data
+WikiDumps/
+Blocks/
+
+# Generated files
+*.jsonl
+*.json
+*.zst
+
+# Python
+__pycache__/
+*.pyc

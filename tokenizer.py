@@ -7,7 +7,7 @@ STOPWORDS = {
     "by","as","at","from","that","this","it","be","are","was","were"
 }
 
-# TOKENIZER
+
 def tokenize(text):
     tokens = TOKEN_PATTERN.findall(text.lower())
     return [t for t in tokens if t not in STOPWORDS]
